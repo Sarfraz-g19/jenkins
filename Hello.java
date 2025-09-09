@@ -1,5 +1,8 @@
 public class Hello {
     public static void main(String[] args) {
-        System.out.println("Hello, Jenkins! My first Java build. \n its land  nitish jhatu");
+        // Run a loop 100 times
+        for (int i = 1; i <= 100; i++) {
+            System.out.println("Run number: " + i + " - nitish land jhantu!");
+        }
     }
 }
